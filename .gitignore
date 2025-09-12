@@ -11,6 +11,7 @@
 .svn/
 .swiftpm/
 migrate_working_dir/
+.*
 
 # IntelliJ related
 *.iml
@@ -43,6 +44,7 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+/android/gradle/wrapper/gradle-wrapper.properties
 
 # FVM Version Cache
 .fvm/
