@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:ton_keeper/locator.dart';
 
-void main() {
+Future<void> main() async{
+  await getItInit(); //init locator
   runApp(const MyApp());
 }
 
